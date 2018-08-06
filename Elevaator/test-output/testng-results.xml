@@ -1,77 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+  <suite name="Default suite" duration-ms="91" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
-      <class name="com.ritu.tomtom.Elevaator.ElevatorTest">
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="4" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+    <test name="Default test" duration-ms="91" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
+      <class name="com.ritu.tomtom.Elevaator.ElevatorControlSystemTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="initialize" is-config="true" duration-ms="9" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="checkCurrentFloor()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="checkCurrentFloor" duration-ms="7" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCallingTwoElevators()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="testCallingTwoElevators" duration-ms="13" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkCurrentFloor -->
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="0" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- testCallingTwoElevators -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="initialize" is-config="true" duration-ms="1" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="checkDirectionDown()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="checkDirectionDown" duration-ms="1" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testElevatorTwoNotMoving()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="testElevatorTwoNotMoving" duration-ms="2" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkDirectionDown -->
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="0" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- testElevatorTwoNotMoving -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="initialize" is-config="true" duration-ms="1" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="checkDirectionHold()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="checkDirectionHold" duration-ms="1" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testRequestingOneElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="testRequestingOneElevator" duration-ms="1" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkDirectionHold -->
-        <test-method status="PASS" signature="checkDirectionUp()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="checkDirectionUp" duration-ms="1" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- testRequestingOneElevator -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkDirectionUp -->
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="0" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSendingElevatorToDestination()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="testSendingElevatorToDestination" duration-ms="3" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="checkMoveDown()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="checkMoveDown" duration-ms="1" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- testSendingElevatorToDestination -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="initialize" is-config="true" duration-ms="0" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkMoveDown -->
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="0" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSendingElevatorToMultipleDestinations()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorControlSystemTest@51efea79]" name="testSendingElevatorToMultipleDestinations" duration-ms="5" started-at="2018-08-06T18:19:28Z" finished-at="2018-08-06T18:19:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="checkStatusEmpty()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="checkStatusEmpty" duration-ms="2" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusEmpty -->
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="0" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="checkStatusOccupied()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="checkStatusOccupied" duration-ms="1" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusOccupied -->
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="0" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="initializeElevator()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="initializeElevator" is-config="true" duration-ms="1" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initializeElevator -->
-        <test-method status="PASS" signature="testAddingDestination()[pri:0, instance:com.ritu.tomtom.Elevaator.ElevatorTest@5034c75a]" name="testAddingDestination" duration-ms="0" started-at="2018-08-06T18:15:30Z" finished-at="2018-08-06T18:15:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddingDestination -->
-      </class> <!-- com.ritu.tomtom.Elevaator.ElevatorTest -->
+        </test-method> <!-- testSendingElevatorToMultipleDestinations -->
+      </class> <!-- com.ritu.tomtom.Elevaator.ElevatorControlSystemTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
